@@ -4,13 +4,13 @@ The main topic of this first lab activity is branching and merging in git.
 
 ## Resources and Acknowledgements
 
-- https://www.atlassian.com/git/tutorials/using-branches contains an excellent, detailed
+- <https://www.atlassian.com/git/tutorials/using-branches> contains an excellent, detailed
 walkthrough of the steps we will be going through in the lab. We encourage you to use
 it as a reference as needed. The short video (about 4 minutes) is well worth a quick view
 in the link above.
 
 - The first coding part in this activity is (very loosely) based on a common problem encountered in
-problems posted on https://projecteuler.net/archives which is another interesting source of challenging
+problems posted on <https://projecteuler.net/archives> which is another interesting source of challenging
 programming problems. You might also recognize that the multiples of 3 and 5 problem from
 last week came from there. If you are looking for challenges, definitely check it out.
 
@@ -20,19 +20,19 @@ last week came from there. If you are looking for challenges, definitely check i
 
 > **IMPORTANT!**
 >
->During lab, you should **not** fork directly from https://github.com/CSC207-2025F-UofT/lab2-branching-and-merging.
+>During lab, you should **not** fork directly from <https://github.com/CSC207-2025F-UofT/lab2-branching-and-merging>.
 Your TA will share a different URL for you to fork from, so that you
 can make pull requests to that repo during Task 3 of the lab.
 If you miss the lab and work on this after, you can use this URL though.
 
-- [ ] Make a fork of this repo and clone a local copy (as you did in Lab 1).
+- [x] Make a fork of this repo and clone a local copy (as you did in Lab 1).
 
 >**Important**: make sure to uncheck the option to only fork the main branch, as the repo
 > contains two branches you will use later in this lab.
 
 # TASK 1: Your first branch
 
-- [ ] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
+- [x] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
   - IntelliJ: `Git -> New branch...`
   - Terminal: `git checkout -b task_1`
   - After, you can check `git status` or the Log tab of the Git tool window in IntelliJ to see
@@ -40,11 +40,11 @@ If you miss the lab and work on this after, you can use this URL though.
 
 ---
 
-- [ ] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
+- [x] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
 
 ---
 
-- [ ] Complete the TASK 1 TODO and commit your changes to this file (checking off the
+- [x] Complete the TASK 1 TODO and commit your changes to this file (checking off the
 completed items so far) and `DataTypes.java` (remove the word TODO and your bug fix).
   - talk to your team or your TA, then see the hints at the bottom of the readme if you get stuck.
 
@@ -55,6 +55,7 @@ you need to be currently on the branch you are trying to merge into, so we'll fi
 branch:
   - IntelliJ: `Git -> branches... -> main -> Checkout`
   - Terminal: `git checkout main`
+
 >Note: everything we've done has been local to our repository — we have not pushed anything yet.
 
 ---
@@ -82,13 +83,13 @@ You should now see the changes that you made are now in the `main` branch.
 And that's it for Task 1! You might be wondering about how we are supposed to get _someone else_
 to review and approve our changes _before_ we push our changes to the main branch of
 our remote repository, since everything we just did was local. We'll explore how to do precisely
-that by pushing our *branch* to our remote repository and making a **pull request (PR)** shortly,
+that by pushing our _branch_ to our remote repository and making a **pull request (PR)** shortly,
 but first, we'll talk about merge conflicts and how to resolve them.
 
 > Tip: In the Git tool window, you can open the `Console` tab to see the underlying git commands it
 is performing when you ask IntelliJ to perform various git operations for you.
 
-# TASK 2: Let's bake a cake!
+# TASK 2: Let's bake a cake
 
 Alice and Bob are planning to bake a cake, but can't agree on which recipe to use. They had
 started working on the recipe in `recipe.md` together, and then they each filled in the details of
@@ -111,7 +112,7 @@ You'll notice that your repository already has two branches called `alice` and `
 
 - [ ] Finally, checkout the `main` branch and merge the `alice` branch in (as we did previously).
 
-Now, you are almost ready to share your recipe with the remote! 
+Now, you are almost ready to share your recipe with the remote!
 
 # TASK 3
 
@@ -124,7 +125,7 @@ Now, you are almost ready to share your recipe with the remote!
 - [ ] Go to GitHub and you will see an option to make a pull request to the original repo. Make
   a pull request and see that the PR shows up in the original repository that you forked.
 
-Since others will also be making pull requests, we won't *actually* accept any of them for now, but
+Since others will also be making pull requests, we won't _actually_ accept any of them for now, but
 you'll get lots of practice with pull requests in the next task and beyond!
 
 We're now ready to dive into a collaborative coding challenge with your team.
@@ -139,7 +140,7 @@ proceed to the second lab activity on Quercus!
 - Hint 1: you only need to change one line of code
 
 - Hint 2: unlike Python, an int has a maximum value that it can store (see Integer.MAX_VALUE).
-also see https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+also see <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html>
 
 ### TASK 2 (and possibly other places): Note about Unsaved local changes
 
@@ -156,4 +157,4 @@ When making a pull request, there may potentially be merge conflicts to resolve,
 previous task. GitHub as additional information about how its interface helps facilitate resolving such
 conflicts:
 
-https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github
+<https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github>
