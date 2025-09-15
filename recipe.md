@@ -10,7 +10,7 @@
 - ...
 
 ## Instructions:
-1. Preheat the oven to 375°F (190°C).
+1. Preheat the oven to 350°F (175°C).
 2. In a large bowl, whisk together the flour, sugar, cocoa powder, and ground cinnamon.
 3. ...
 
